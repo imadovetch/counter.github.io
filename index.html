@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Counter</h1>
+  <div class="box" id="boxes">
+    <span class="box" id="box1">
+      <button class="up" id="up1">&#9650;</button>
+      <label class="stop" id="hours" for="box1">00</label>
+      <button class="down" id="down1">&#9660;</button>
+    </span>
+    <span class="box" id="box2">
+      <button class="up" id="up2">&#9650;</button>
+      <label class="stop" id="minutes" for="box3">00</label>
+      <button class="down" id="down2">&#9660;</button>
+    </span>
+    <span class="box" id="box3">
+      <button class="up" id="up3">&#9650;</button>
+      <label class="stop" id="seconds" for="box3">00</label>
+      <button class="down" id="down3">&#9660;</button>
+    </span>
+  </div>
+  <label id="text"class="text"for="text">CHOOSE THE TIME </label>
+  <div class="box" id="strat1">
+    <button class="start" id="start" style="width: 100px;">Start</button>
+    <button class="start" id="continue" style="display: none; width: 100px;">PLAY</button>
+    <button class="start" id="pause" style="display: none; width: 100px;">STOP</button>
+    <button class="start" id="reset" style="display: none; width: 100px;">Reset</button>
+  </div>
+  <div id="slide">
+   <img src="rocket.png" class="rocket">
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
